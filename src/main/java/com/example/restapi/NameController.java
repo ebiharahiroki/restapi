@@ -10,6 +10,6 @@ public class NameController {
 
     @GetMapping("/names")
     public List<String> getNames() {
-        return List.of("ebihara", "yamada");
+        return List.of("ebihara", "yamada", "suzuki");
     }
 }
