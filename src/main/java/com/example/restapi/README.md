@@ -1,7 +1,2 @@
-curl 'http://localhost:8080/names' \
--H 'Content-Type: application/json' \
--d '{
-"name": "koyama"
-"age": 20
-"address": "Itabashi, Tokyo"
-}'
+curl -X DELETE 'http://localhost:8080/names/1' \
+--header 'Content-Type: application/json' \
